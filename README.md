@@ -24,6 +24,8 @@ The following **optional** features are implemented:
       <img src="./extras/intro.gif" width="200" height="400"/>
 - [X] Run the app on a device rather than in the simulator
 
+ **NOTE:** Ran app on iPad. Watch video demo below! 🫡
+
       
 
 The following **additional** features are implemented:
