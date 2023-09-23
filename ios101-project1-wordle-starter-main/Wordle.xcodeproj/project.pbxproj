@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C68E2F82ABEA32400B88137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996B84B0299990AA00133037 /* Assets.xcassets */; };
 		991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0529999E2A0095F025 /* KeyboardCell.swift */; };
 		991CEC0829999ECD0095F025 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0729999ECD0095F025 /* KeyboardController.swift */; };
 		9953C05529A40AC700247C5B /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953C05429A40AC700247C5B /* BoardController.swift */; };
@@ -15,7 +16,6 @@
 		996B84AA299990A900133037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84A9299990A900133037 /* SceneDelegate.swift */; };
 		996B84AC299990A900133037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84AB299990A900133037 /* ViewController.swift */; };
 		996B84AF299990A900133037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B84AD299990A900133037 /* Main.storyboard */; };
-		996B84B1299990AA00133037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996B84B0299990AA00133037 /* Assets.xcassets */; };
 		996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B84B2299990AA00133037 /* LaunchScreen.storyboard */; };
 		996B84BF299990AA00133037 /* WordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84BE299990AA00133037 /* WordleTests.swift */; };
 		996B84C9299990AA00133037 /* WordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84C8299990AA00133037 /* WordleUITests.swift */; };
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */,
-				996B84B1299990AA00133037 /* Assets.xcassets in Resources */,
+				4C68E2F82ABEA32400B88137 /* Assets.xcassets in Resources */,
 				996B84AF299990A900133037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZGU56TB63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Wordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,12 +489,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mari.Wordle;
+				PRODUCT_BUNDLE_IDENTIFIER = Vasanth.Wordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -508,6 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZGU56TB63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Wordle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -515,12 +518,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mari.Wordle;
+				PRODUCT_BUNDLE_IDENTIFIER = Vasanth.Wordle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
